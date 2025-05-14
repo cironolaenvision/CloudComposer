@@ -1,0 +1,9 @@
+{
+    "composer_image_version": "composer-2.12.1-airflow-2.9.3",
+    "composer_location": "us-central1",
+    "composer_project_id": "v3-playground-366213",
+    "dags_path": "/Users/cirofonseca/Documents/GitHub/composer-local-dev/composer/airflow/dags",
+    "dag_dir_list_interval": 10,
+    "port": 8080,
+    "database_engine": "sqlite3"
+}
