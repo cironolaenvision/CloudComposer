@@ -73,7 +73,6 @@ dag_args = {
 LOCATION = "us"
 
 headers = {
-    "Authorization": "Bearer ya29.a0AW4XtxhR3baT3IgqiPB6JSsJjvTbxLSvrlkhkO3Al34MMWkNx2_popKK2sWyU_xYr0zif5R4uL_GLzLASTWTh9TkaCMXeS3dB38-9TINn-cCbKonDEvZY3myht5CFJcb-00H3pDP9pwpn1ER3CjtkcEauTOHmZV0EDFaN0BK5waCgYKAXASARASFQHGX2MixcFfZx9-Gf3YotYxogi1HQ0177",
     "Accept": "*/*",
     "Host": "dataflow.googleapis.com",
     "Accept-Encoding": "gzip, deflate, br",
