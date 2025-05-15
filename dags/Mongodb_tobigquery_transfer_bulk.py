@@ -97,7 +97,7 @@ with models.DAG(
             wait_until_finished=False,
             body={
                 "launchParameter": {
-                    "jobName": f"transfer_{account["CollectionName"].lower()}_{datetime.datetime.now().strftime('%Y%m%d%H%M%S')}",
+                    "jobName": f"transfer_{account['CollectionName'].lower()}_{datetime.datetime.now().strftime('%Y%m%d%H%M%S')}",
                     "parameters": {
                         "mongoDbUri": "mongodb+srv://bigquery:simplePassword@clusterenvision.bwqtr.mongodb.net/",
                         "database": "ETS",

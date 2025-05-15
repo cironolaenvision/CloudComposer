@@ -1,0 +1,3 @@
+select *
+from BI_Master.ServiceItemsRaw
+limit 100

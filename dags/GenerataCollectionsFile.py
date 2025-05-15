@@ -18,18 +18,15 @@ import json
 PROJECT_ID = "v3-playground-366213"
 DATASET = "ETS"
 
-dag_args = {
-    "start_date": datetime.datetime(2025, 5, 8),
-}
-
 LOCATION = "us"
 
 data_dir = os.path.dirname(os.path.abspath(__file__)).replace('dags','data')
 
 with models.DAG(
+    start_date=datetime.datetime(2025, 5, 15,16),
     dag_id="generate_collections_to_file",
     description="Consulta a tabela de SystemAccounts do BigQuery a salva em um arquivo para outras Dags utilizarem",
-    schedule_interval=None
+    schedule_interval="0 */1 * * *"
 ) as dag:
 
     @task(task_id=f"prepTable")

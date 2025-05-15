@@ -6,4 +6,5 @@
     "dag_dir_list_interval": 10,
     "port": 8080,
     "database_engine": "sqlite3"
+    "allowed_deserialization_classes": "airflow.* BIDataAggreate.* Element"
 }
